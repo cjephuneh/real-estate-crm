@@ -1,8 +1,9 @@
 import React from 'react'
 import Logo from '../assets/logo.png'
 import './Navbar.css'
-import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import FlagIcon from '@mui/icons-material/Flag';
+import DehazeIcon from '@mui/icons-material/Dehaze';
 
 
 const Navbar = () => {
@@ -13,19 +14,9 @@ const Navbar = () => {
             
         </div>  
         <p className='crm-desc'>Salf Real Estate CRM</p>
-        <button>
-            New lead
-        </button>
-        <div>
-            <NotificationsActiveIcon />
-        </div>
-        <div>
-            <FlagIcon />
-        </div>
-        <div>
-
-        </div>
+        
     </nav>
+    
       
   )
 }
