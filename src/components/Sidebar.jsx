@@ -1,5 +1,5 @@
 import React from 'react'
-import DashboardIcon from "@mui/icons-material/Dashboard";
+import HomeIcon from '@mui/icons-material/Home';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import AddTaskIcon from '@mui/icons-material/AddTask';
 import ApprovalIcon from '@mui/icons-material/Approval';
@@ -9,51 +9,52 @@ import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import CampaignIcon from '@mui/icons-material/Campaign';
 import SummarizeIcon from '@mui/icons-material/Summarize';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import './Sidebar.css'
 
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <div>
-        <ul>
+      <div >
+        <ul className='sidebar_list'>
           <li>
-            <DashboardIcon className="icon" />
-            <span>Dashboard</span>
+            <HomeIcon className="icon" />
+            <span className='item_desc'>Dashboard</span>
           </li>
           <li>
             <AccountTreeIcon className="icon" />
-            <span>Projects</span>
+            <span className='item_desc'>Projects</span>
           </li>
           <li>
             <AddTaskIcon className="icon" />
-            <span>Task Manager</span>
+            <span className='item_desc'>Task Manager</span>
           </li>
           <li>
             <ApprovalIcon className="icon" />
-            <span>Approvals</span>
+            <span className='item_desc'>Approvals</span>
           </li>
           <li>
             <SignalCellularAltIcon className="icon" />
-            <span>Marketing</span>
+            <span className='item_desc'>Marketing</span>
           </li>
           <li>
             <EmojiEventsIcon className="icon" />
-            <span>Leads</span>
+            <span className='item_desc'>Leads</span>
           </li>
           <li>
             <SummarizeIcon className="icon" />
-            <span>Leads Reports</span>
+            <span className='item_desc'>Leads Reports</span>
           </li>
           <li>
             <PersonAddIcon className="icon" />
-            <span>Clients</span>
+            <span className='item_desc'>Clients</span>
           </li>
           <li>
             <CampaignIcon className="icon" />
-            <span>Mass comm.</span>
+            <span className='item_desc'>Mass comm.</span>
           </li>
           <li>
             <ManageAccountsIcon className="icon" />
-            <span>Admin</span>
+            <span className='item_desc'>Admin</span>
           </li>
 
         </ul>
