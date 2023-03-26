@@ -1,10 +1,16 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <h1>we are here for the build</h1>
+    <div>
+      <h1>hello</h1>
+      <Navbar />
+      <Sidebar />
+    </div>
   )
 }
 
