@@ -1,9 +1,25 @@
 .nav-logo {
-    width: 120px;
-    height: 120px;
+    display: block;
+    margin-top: -19px;
+    
    
 }
 
 .navbar {
-    background-color: rgb(216, 61, 61);
+    background-color: rgb(59, 58, 58);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    align-items: center;
+ 
+}
+
+.crm-desc {
+    margin-top: -75px;
+    margin-left: 120px;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    
 }
