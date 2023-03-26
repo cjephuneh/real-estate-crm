@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo.png'
 import './Navbar.css'
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import FullscreenExitOutlinedIcon from "@mui/icons-material/FullscreenExitOutlined";
@@ -18,11 +17,10 @@ const Navbar = () => {
             
         </div>  
         <p className='crm-desc'>Salf Real Estate CRM</p>
+
+        
         <div classname='wrapper'>
-        <div classname='search'>
-            <input type='text' placeholder='Search...'/>
-            <SearchOutlinedIcon />
-        </div>
+        
         <div className="items">
           <div className="item">
             <LanguageOutlinedIcon className="icon" />
